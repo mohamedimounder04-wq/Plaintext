@@ -1,0 +1,20 @@
+{
+  "name": "agrivet-backend",
+  "version": "1.0.0",
+  "description": "AgriVet Enterprise Secure REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "cors": "^2.8.5",
+    "bcrypt": "^5.1.1",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
